@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.header {
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.header a{
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+.color{
+  color: white;
+}
+

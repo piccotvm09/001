@@ -1,0 +1,17 @@
+<div class="container">
+  <table class="table table-bordered">
+    <tr>
+      <th>NAME</th>
+      <th>ADDRESS</th>
+      <th>BLOODGROUP</th>
+      <th>NUMBER</th>
+    </tr>
+    <tr *ngFor="let user1 of userss"  >
+      <td>  {{user1.name}} </td>
+      <td>{{user1.address}}</td>
+      <td>{{user1.bloodgroup}}</td>
+      <td>{{user1.number}}</td>
+    </tr>
+  </table>
+</div>
+

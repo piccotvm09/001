@@ -1,0 +1,27 @@
+<div class="container">
+  <table class="color table table-bordered">
+<tr>
+  <th>NAME</th>
+  <td><a (click)="clicked1(user1.name)">{{user?.name}}</a></td>
+</tr>
+<tr>
+  <th>AGE</th>
+  <td>{{user?.age}}</td>
+</tr>
+<tr>
+  <th>GENDER</th>
+  <td>{{user?.gender}}</td>
+</tr>
+<tr>
+  <th>CELL</th>
+  <td>{{user?.cell}}</td>
+</tr>
+<tr>
+  <th>BLOODGROUP</th>
+  <td>{{user?.bloodgroup}}</td>
+</tr>
+  </table>
+<div class="center"> <a  [routerLink]="['/back']">BACK</a> </div>
+
+</div>
+<router-outlet></router-outlet>

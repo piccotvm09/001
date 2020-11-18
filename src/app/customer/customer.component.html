@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="color table table-bordered">
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>AGE</th>
+      <th>GENDER</th>
+    </tr>
+    <tr *ngFor="let user of users"  >
+      <td> <a (click)="clicked(user.id)"> {{user.id}} </a></td>
+      <td>{{user.name}}</td>
+      <td>{{user.age}}</td>
+      <td>{{user.gender}}</td>
+    </tr>
+  </table>
+</div>
